@@ -1,0 +1,75 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; 
+}
+
+body {
+    padding-top: 60px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: black;
+}
+
+  .carousel-item img {
+    max-width: 50%; 
+    height: auto;
+    margin: auto;
+  }
+  .carousel-caption {
+    top: 0;
+    bottom: auto;
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+
+  video {
+    width: 80%;
+  }
+  .btn-outline-white {
+        background-color: transparent;
+        color: white;
+        border-color: white;
+        transition: all 0.3s ease;
+        border-radius: 25px;
+        padding: 10px 20px;
+    }
+
+    .btn-outline-white:hover {
+        background-color: white;
+        color: #333;
+    }
+
+    .fe.fe-arrow-right {
+        margin-left: 5px;
+        transition: transform 0.3s ease;
+    }
+
+    .btn-outline-white:hover .fe.fe-arrow-right {
+        transform: translateX(5px); 
+    }
+    .custom-btn {
+      background-color: #F01F4B;
+      color: white; 
+  }
+  .carousel-item img {
+    max-height: 100%; 
+    display: block;
+    margin: 0 auto; 
+  }
+
+  
+
+  .card {
+    transition: transform 0.3s ease-in-out; 
+  }
+  .card:hover {
+    transform: translateY(-10px); 
+  }
